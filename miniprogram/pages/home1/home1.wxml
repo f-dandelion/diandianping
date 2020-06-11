@@ -1,0 +1,12 @@
+<!--pages/home1/home1.wxml-->
+
+<view class="movie" wx:for="{{list}}" wx:key="index">
+<image class="movie-image" src="{{item.images.small}}"></image>
+<view class="movie-info">
+<view class="movie-color">{{item.title}}</view>
+<view class="movie-score">{{item.rating.average}}</view>
+<view>{{item.casts[0].name}}</view>
+<view>{{item.year}}</view>
+<view class="movie-button" bindtap="jump" data-id="{{item.id}}">详情</view>
+</view>
+</view>

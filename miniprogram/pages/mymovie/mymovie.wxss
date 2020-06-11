@@ -1,0 +1,16 @@
+/* pages/mymovie/mymovie.wxss */
+.filed{
+  margin-top:20rpx;
+}
+.upload_img{
+  margin-left:190rpx;
+  margin-top:30rpx;
+}
+.upload_submit{
+  margin-top:30rpx;
+  margin-left:190rpx;
+}
+.upload_like{
+  margin-top:30rpx;
+  margin-left:190rpx;
+}

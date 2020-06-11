@@ -1,0 +1,2 @@
+<!--pages/me/me.wxml-->
+<view bindtap="add">{{m}}</view>

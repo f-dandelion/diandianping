@@ -1,0 +1,28 @@
+<!--pages/detail/detail.wxml-->
+
+<view class="detail-container" style="background:url({{detail.images.large}}) no-repeat center" ></view>
+<view class="detail-mask"></view>
+ <view class="detail-info">
+ <image src="{{detail.images.large}}" class="detail-img"></image>
+ <view class="detail">
+ <view>{{detail.title}}</view>
+ <view>{{detail.original_title}}</view>
+ <view>{{detail.rating.average}}</view>
+ <view>{{detail.countries[0]}}</view>
+ <view>{{detail.directors[0].name}}</view>
+ </view>
+</view>
+<view class="desc">{{detail.summary}}</view>
+
+<!--评论区的输入框-->
+<van-field class="user_input" value="{{value1}}" placeholder="请输入评论" bind:change="onContentChange"></van-field>
+<!--评分,chnage观察变化的事件-->
+<van-rate class="score" value="{{score}}" bind:change="onChangeScore"></van-rate>
+<!--按钮-->
+<view  class="submit_img" bindtap="uploadFile">上传图片</view>
+<!--图片预览区域-->
+<view><image wx:for="{{images}}" wx:key="index" src="{{item}}" class="detail-img"></image></view>
+<!--提交评论区域-->
+<van-button color="#f75044" class="user_submit" size="normal" bindtap="submit">提交评论</van-button>
+
+

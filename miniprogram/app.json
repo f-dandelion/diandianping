@@ -1,0 +1,57 @@
+{
+  "pages": [
+    "pages/home1/home1",
+    "pages/mymovie/mymovie",
+    "pages/me/me",
+    "pages/list/list",
+    
+    
+    
+    "pages/profile/profile",
+    "pages/map/map",
+    
+    "pages/detail/detail"
+    
+    
+  ],
+  "window": {
+    "backgroundColor": "#d01818",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#d01818",
+    "navigationBarTitleText": "点点评",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "tabBar": {
+    "color":"#8a8a8a",
+    "selectedColor":"#d81e06",
+    "list": [{
+
+      "pagePath": "pages/home1/home1",
+      "text": "电影",
+      "iconPath": "images/movie1.png",
+      "selectedIconPath": "images/movie.png"
+    },
+    {
+      "pagePath": "pages/map/map",
+      "text": "影院",
+      "iconPath": "images/map1.png",
+      "selectedIconPath": "images/map.png"
+    },
+    {
+      "pagePath": "pages/mymovie/mymovie",
+      "text": "喜欢",
+      "iconPath": "images/heart1.png",
+      "selectedIconPath": "images/heart.png"
+    },
+    {
+      "pagePath": "pages/profile/profile",
+      "text": "个人中心",
+      "iconPath": "images/me1.png",
+      "selectedIconPath": "images/me.png"
+    }
+  ]
+  }
+
+}

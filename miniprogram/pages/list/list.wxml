@@ -1,0 +1,7 @@
+<!--pages/list/list.wxml-->
+<view class="mylike">我的喜欢</view>
+<view wx:for="{{list}}" wx:key="index" class="movie">
+  <image class="img" wx:for="{{item.fileid}}" wx:key="index" src="{{item}}"></image>
+  <view class="name">电影名称：{{item.name}}</view>
+  <view class="ression">喜欢的原因：{{item.msg}}</view>
+</view>

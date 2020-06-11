@@ -1,0 +1,16 @@
+<!--pages/map/map.wxml-->
+<map id="map" longitude="116.402359"
+latitude="39.999763"
+scale="15"
+style="width:100%;height:600rpx;"
+show-location="true"
+controls="{{controls}}"
+>
+</map>
+<view wx:for="{{placeList}}" wx:key="index" class="placelist">
+   <view>{{item.place}}</view>
+   <view>{{item.area}}</view>
+   <view>{{item.axis}}</view>
+</view>
+
+<view style="height:20rpx"></view>

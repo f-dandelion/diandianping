@@ -1,0 +1,11 @@
+/* pages/map/map.wxss */
+.placelist{
+  height:200rpx;
+  border:1px solid #ccc;
+  margin-top:5px;
+  font-size:35rpx;
+  color:#666
+}
+.placelist  view{
+  margin-top:15rpx;
+}

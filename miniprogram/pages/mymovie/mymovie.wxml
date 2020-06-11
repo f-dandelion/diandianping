@@ -1,0 +1,19 @@
+<!--pages/mymovie/mymovie.wxml-->
+<!--vant-weap组件中的表单-->
+<view class="filed">
+  <van-field label="喜欢的电影" placeholder="请输入名称"
+  value="{{moviename}}"
+  bind:change="changeName"
+  ></van-field>
+  <van-field label="喜欢的原因" placeholder="请输入原因"
+  value="{{content}}"
+  bind:change="changeContent"
+  ></van-field>
+  <van-button class="upload_img" color="#f75044" size="large" bindtap="upload">上传你喜欢的图片</van-button>
+  <view>
+    <image style="width:200rpx;height:200rpx"
+     wx:for="{{images}}" wx:key="index" src="{{item}}"></image>
+  </view>
+</view>
+<van-button   class="upload_submit" color="#f75044" bindtap="submit" size="large">提交</van-button>
+<van-button   class="upload_like" color="#d01818"  size="large" bindtap="jumpList">显示喜欢的电影列表</van-button>

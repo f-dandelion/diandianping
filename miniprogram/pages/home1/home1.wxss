@@ -1,0 +1,34 @@
+/* pages/home1/home1.wxss */
+.movie{
+  display:flex;
+  padding:20px;
+  border-bottom:1px solid #ccc; 
+}
+.movie-image{
+  width:200rpx;
+  height:300rpx;
+  margin-right:30rpx;
+}
+.movie-info{
+  flex:1;/*flex:100%,撑满所占区域*/
+  font-size:28rpx;
+  line-height:1.8;
+}
+.movie-score{
+  color:#faaf00;
+}
+.movie-color{
+  color:#666;
+  font-size:40rpx;
+}
+.movie-button{
+  width:30%;
+  height:70rpx;
+  background: rgb(216, 26, 26);
+  color:#fff;
+  font-size:26rpx;
+  line-height: 70rpx;
+  text-align: center;
+  border-radius:10rpx;
+  margin-top:20rpx
+}
