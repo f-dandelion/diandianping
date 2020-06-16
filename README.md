@@ -1,3 +1,3 @@
 # diandianping
 点点评小程序
-![diandianping](https://github.com/f-dandelion/diandianping/blob/master/miniprogram/images/diandianping.gif)
+<img src="https://img-blog.csdnimg.cn/20190715155903552.gif" width="300px">
